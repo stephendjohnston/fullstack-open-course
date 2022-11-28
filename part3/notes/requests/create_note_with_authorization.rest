@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNqYXkiLCJpZCI6IjYzODEwNDg1ZjY4MjkwZjUyOTFjNmIxMyIsImlhdCI6MTY2OTQ3ODA4N30.vlx22fdBp3yYte3gH3nkym9dEaBeUfEi4LFDaIfuzAk
+
+{
+  "content": "Testing bearer Authorization",
+  "important": true
+}
+
+// use login.rest to get token
